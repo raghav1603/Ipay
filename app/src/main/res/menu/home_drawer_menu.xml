@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="@string/recharge"
+            android:id="@+id/rechargeNav"/>
+        <item
+            android:title="@string/mobile"
+            android:id="@+id/mobileNav"/>
+        <item
+            android:title="@string/electronics"
+            android:id="@+id/electronicsNav"/>
+        <item
+            android:title="@string/busTickets"
+            android:id="@+id/busTicketsNav"/>
+        <item
+            android:title="@string/Hotels"
+            android:id="@+id/hotelsNav"/>
+        <item
+            android:title="@string/menFashion"
+            android:id="@+id/menFashionnav"/>
+        <item android:title="@string/womenFashion"
+            android:id="@+id/womenFashionNav"/>
+        <item
+            android:title="@string/sports"
+            android:id="@+id/sportsNav"/>
+        <item
+            android:title="@string/books"
+            android:id="@+id/booksNav"/>
+        <item
+            android:title="@string/buySell"
+            android:id="@+id/buySellNav"/>
+
+    </group>
+
+</menu>

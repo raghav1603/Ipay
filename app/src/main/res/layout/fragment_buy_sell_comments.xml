@@ -1,0 +1,41 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.moneytransfer.ipay.buysell.fragment.BuySellCommentsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/all_comments_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+        <EditText
+            android:id="@+id/all_comments_editText"
+            android:hint="Comments"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/comment_button"
+            android:text="Comment"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

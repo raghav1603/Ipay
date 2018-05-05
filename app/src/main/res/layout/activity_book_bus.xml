@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.moneytransfer.ipay.bustickets.activity.BookBusActivity">
+
+    <TextView
+        android:text="Source"
+        android:id="@+id/book_source"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Destination"
+        android:id="@+id/book_destination"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Departure Time"
+        android:id="@+id/book_time"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Seats Left"
+        android:id="@+id/book_seats_left"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Bus Registeration Number"
+        android:id="@+id/book_bus_number"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Bus Type"
+        android:id="@+id/book_bus_type"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Ticket Cost"
+        android:id="@+id/book_bus_cost"
+        android:layout_margin="8dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/book_number_tickets"
+        android:hint="Number of Tickets"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/book_bus_tickets"
+        android:text="Book Tickets"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

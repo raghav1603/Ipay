@@ -1,0 +1,15 @@
+package in.moneytransfer.ipay.home.activity;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import in.moneytransfer.ipay.R;
+
+public class MapsActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_maps);
+    }
+}

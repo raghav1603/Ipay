@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "522978089794",
+    "firebase_url": "https://ipay-63ab9.firebaseio.com",
+    "project_id": "ipay-63ab9",
+    "storage_bucket": "ipay-63ab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522978089794:android:2f64c8eb8254b286",
+        "android_client_info": {
+          "package_name": "in.moneytransfer.ipay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522978089794-10ieteuh1otnvgnhqb5ouiq842ojo5j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.moneytransfer.ipay",
+            "certificate_hash": "f73aea3e1852de104434b78b7d8c31eb4d3ae80b"
+          }
+        },
+        {
+          "client_id": "522978089794-u9onn270h1rsaroh2huf5homm27kmtpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMfloa13LyK_bcwDa0X9BqArW96YuYJkU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522978089794-u9onn270h1rsaroh2huf5homm27kmtpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

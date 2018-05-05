@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">iPay</string>
+
+    <string name="signInButtonMessage">Login</string>
+    <string name="signUpTextView">New user? Sign up</string>
+    <string name="signUpButton">Signup</string>
+    <string name="backToLogin">Back to login</string>
+
+    <string name="emailErrorMessage">Enter email address !</string>
+    <string name="passwordErrorMessage">Enter valid Password !</string>
+    <string name="usernameErrorMessage">Enter valid username !</string>
+
+    <string name="OPEN">open</string>
+    <string name="CLOSE">close</string>
+
+    <string name="recharge">Recharge or Pay for</string>
+    <string name="mobile">Mobile &amp; Accessories</string>
+    <string name="electronics">Electronics</string>
+    <string name="busTickets">Bus Tickets</string>
+    <string name="Hotels">Hotels</string>
+    <string name="menFashion">Men\'s Fashion</string>
+    <string name="womenFashion">Women\'s Fashion</string>
+    <string name="sports">Sports</string>
+    <string name="books">Stationary</string>
+    <string name="buySell">Buy &amp; Sell</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="accept_payment">Accept Payment</string>
+    <string name="add_money">Add Money</string>
+    <string name="nearby_locations">Nearby</string>
+    <string name="latest_offers">Latest Offers</string>
+    <string name="passbook">Passbook</string>
+    <string name="pay_other">Pay</string>
+
+
+    <string name="bus_tickets">Bus Tickets</string>
+    <string name="buy_sell">Buy Sell</string>
+    <string name="electronics_activity">Electronics</string>
+    <string name="hotels_activity">Hotels</string>
+    <string name="mens_fashion">Men\'s Fashion</string>
+    <string name="mobile_accessories">Mobile &amp; Accessories</string>
+    <string name="my_profile">My Profile</string>
+    <string name="recharge_account">Recharge</string>
+    <string name="sports_kits">Sports</string>
+    <string name="stationary">Stationary</string>
+    <string name="womens_fashion">Women\'s Fashion</string>
+    <string-array name="environment_array">
+        <item>@string/test</item>
+        <item>@string/production</item>
+    </string-array>
+
+    <string name="test">Test</string>
+    <string name="production">Production</string>
+
+    <string name="use_live_key_in_production_environment">Please use your live merchant key in production environment</string>
+    <string name="could_not_receive_data">Could not receive data</string>
+
+    <string-array name="cities_list">
+
+        <item>Delhi</item>
+        <item>Shimla</item>
+        <item>Chandigarh</item>
+        <item>Dehradun</item>
+        <item>Hardiwar</item>
+        <item>Meerut</item>
+        <item>Jammu</item>
+        <item>Saharanpur</item>
+        <item>Manali</item>
+        <item>Nainital</item>
+
+    </string-array>
+    <string name="google_api_places_key">AIzaSyBQNGAT2lgM6TNOiuh7iPvbPlSIzgNzV2k</string>
+
+    <string-array name="circle_list">
+        <item>Select Circle</item>
+        <item>Andhra Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar Jharkhand</item>
+        <item>Chennai</item>
+        <item>Delhi NCR</item>
+        <item>Gujarat</item>
+        <item>Himachal</item>
+        <item>Madhya Pradesh</item>
+        <item>Jammu Kashmir</item>
+        <item>karnataka</item>
+        <item>Kerala</item>
+        <item>Kolkata</item>
+        <item>Maharashtra</item>
+        <item>Mumbai</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Tamil Nadu</item>
+
+    </string-array>
+    <string-array name="providers_list">
+        <item>Select Service Provider</item>
+        <item>Aircel</item>
+        <item>Airtel</item>
+        <item>BSNL</item>
+        <item>Idea</item>
+        <item>Jio</item>
+        <item>MTNL</item>
+        <item>MTS</item>
+        <item>Reliance</item>
+        <item>Vodafone</item>
+    </string-array>
+    <string name="title_activity_progressbar">progressbar</string>
+
+</resources>

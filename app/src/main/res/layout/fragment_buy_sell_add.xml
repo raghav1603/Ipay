@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.moneytransfer.ipay.buysell.fragment.BuySellAddFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_margin="16dp"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:src="@mipmap/ic_launcher"
+           android:id="@+id/buy_sell_fragment_image"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <EditText
+           android:id="@+id/buy_sell_fragment_itemname"
+           android:hint="Name of item"
+           android:layout_gravity="center"
+           android:layout_marginTop="16dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <EditText
+           android:id="@+id/buy_sell_fragment_itemprice"
+           android:hint="Price"
+           android:layout_marginTop="16dp"
+           android:layout_gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <EditText
+           android:id="@+id/buy_sell_fragment_description"
+           android:layout_gravity="center"
+           android:hint="Description"
+           android:layout_marginTop="16dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/addItem"
+       android:text="Sell Now"
+       android:layout_marginTop="16dp"
+       android:paddingRight="60dp"
+       android:paddingLeft="60dp"
+       android:layout_gravity="center"
+       android:textAllCaps="false"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   </LinearLayout>
+</FrameLayout>
